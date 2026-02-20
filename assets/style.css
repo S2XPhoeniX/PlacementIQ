@@ -1,0 +1,270 @@
+/* ================= GLOBAL ================= */
+
+html, body, [class*="css"] {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+
+/* ================= BUTTONS ================= */
+
+div.stButton > button {
+    background: linear-gradient(90deg,#2563eb,#1e40af);
+    color: white;
+    border-radius: 12px;
+    height: 3em;
+    font-size: 17px;
+    border: none;
+    transition: all 0.25s ease;
+}
+
+div.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.18);
+    background: linear-gradient(90deg,#1e40af,#1e3a8a);
+}
+
+div.stButton > button:active {
+    transform: scale(0.98);
+}
+
+
+/* ================= CARDS ================= */
+
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    margin-bottom: 18px;
+}
+
+.card-hover {
+    transition: all 0.25s ease;
+    border: 1px solid transparent;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.2);
+    border: 1px solid rgba(31,119,180,0.25);
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    background:#f4f7ff;
+    color: #1f2a44;
+    padding: 32px;
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.2);
+    transition: all 0.25s ease;
+}
+
+.hero:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 36px rgba(0,0,0,0.25);
+    filter: brightness(1.05);
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero-sub {
+    font-size: 18px;
+}
+
+.hero-desc {
+    font-size: 14px;
+    opacity: .85;
+}
+
+/* ================= SIDEBAR ================= */
+
+.sidebar-card {
+    background: #f4f7ff;
+    padding: 14px;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.06);
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.sidebar-sub {
+    font-size: 13px;
+    color: #555;
+}
+
+.sidebar-section {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.sidebar-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* ================= MAIN HEADER ================= */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.main-header {
+    background: linear-gradient(90deg,#1f77b4,#0d47a1);
+    padding: 30px;
+    border-radius: 22px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+.main-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.main-sub {
+    font-size: 17px;
+    margin-top: 2px;
+}
+
+.main-desc {
+    font-size: 14px;
+    margin-top: 6px;
+    opacity: 0.9;
+}
+
+/* Button override for header section */
+div.stButton > button {
+    height:3em;
+    font-size:18px;
+    border-radius:10px;
+}
+
+/* ================= NEUTRAL CARD ================= */
+
+.neutral-card {
+    padding:20px;
+    border-radius:16px;
+    background:white;
+    box-shadow:0 6px 18px rgba(0,0,0,0.05);
+    margin-bottom:10px;
+    height:120px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+/* ================= SECTION HEADER CARD ================= */
+
+.section-card {
+    background:white;
+    padding:16px;
+    border-radius:16px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.05);
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.section-card h3 {
+    margin:0;
+}
+
+
+/* ================= RESULTS BOX ================= */
+
+.results-box {
+    background: linear-gradient(90deg,#2563eb,#1e40af);
+    color: white;
+    padding: 14px 22px;
+    border-radius: 14px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: all 0.25s ease;
+}
+
+.results-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.18);
+    background: linear-gradient(90deg,#1e40af,#1e3a8a);
+}
+
+/* ================= METRIC BOX ================= */
+
+.metric-box {
+    height:140px;
+    width:100%;
+    padding:10px;
+    border-radius:16px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.06);
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition:0.2s;
+}
+
+.metric-box:hover {
+    transform: scale(1.03);
+}
+
+/* ================= PROBABILITY CIRCLE ================= */
+
+.score-circle {
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    margin:auto;
+    color:black;
+}
+
+/* ================= INFO BOX ================= */
+
+.info-box {
+    padding:18px;
+    border-radius:14px;
+    border:1px solid #e6eaf2;
+    transition:0.2s;
+}
+
+.box-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.skill-tag {
+    padding:6px 10px;
+    border-radius:8px;
+    margin:4px;
+    display:inline-block;
+    font-size:13px;
+}
